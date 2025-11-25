@@ -6,7 +6,7 @@ This project implements real-time face recognition using Python, OpenCV, and the
 - Recognize a person in live video by comparing live embeddings to the stored ones (via `recognition.py`)  
 
 ## Features  
-- Uses the `face_recognition` API built on dlib for face detection, embedding, and matching. :contentReference[oaicite:2]{index=2}  
+- Uses the `face_recognition` API built on dlib for face detection, embedding, and matching. :contentReference[oaicite:2]{index=2}
 - Two-step approach:  
   1. **Embedding step**: capture several images, compute 128-dimensional face embeddings, store in a pickle file. :contentReference[oaicite:3]{index=3}  
   2. **Recognition step**: use live webcam feed, compute embeddings of detected faces, compare with known embeddings to identify persons. :contentReference[oaicite:4]{index=4}  
