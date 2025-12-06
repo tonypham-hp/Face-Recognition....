@@ -151,7 +151,7 @@
 # print("Press 'q' to quit recognition")
 
 # while True:
-#     ret, frame = video_capture.read()
+#     ret, frame = video_capture.read()   
 
 #     # webcam failed → skip
 #     if not ret or frame is None:
