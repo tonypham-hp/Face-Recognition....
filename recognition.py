@@ -5,8 +5,6 @@
 # import time
 # import csv  
 # import pickle
-# # import mysql.connector
-# # import datetime
 
 
 
