@@ -10,7 +10,7 @@ This project implements real-time face recognition using Python, OpenCV, and the
 - Two-step approach:  
   1. **Embedding step**: capture several images, compute 128-dimensional face embeddings, store in a pickle file. :contentReference[oaicite:3]{index=3}  
   2. **Recognition step**: use live webcam feed, compute embeddings of detected faces, compare with known embeddings to identify persons. :contentReference[oaicite:4]{index=4}  
-
+  
 ## Prerequisites  
 - Python 3.x  
 - Install required libraries:  
