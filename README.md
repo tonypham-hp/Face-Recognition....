@@ -1,5 +1,5 @@
 # Face Recognition with Python, OpenCV & Deep Learning
- 
+  
 ## Description  
 This project implements real-time face recognition using Python, OpenCV, and the dlib/face_recognition library. It allows you to:  
 - Capture face embeddings for a person from webcam images (via `embedding.py`)  
